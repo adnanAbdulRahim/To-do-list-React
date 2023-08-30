@@ -1,5 +1,7 @@
 import { TodoItem } from "./TodoItem"
 
+//When code is placed inside {} it is run as javaScript.
+//.map returns an array.
 export function TodoList({ todos, toggleTodo, deleteTodo }) {
   return (
     <ul className="list">
